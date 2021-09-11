@@ -147,3 +147,22 @@ function calcularAreaCirculo(){
     const PI = Math.PI;
     alert(areaCirculo(valor,PI));
 }
+
+//TRIANGULO ISOSCELES 
+function calcularAlturaIsosceles(){
+    const inputCateto1 = document.getElementById("inputCateto1Triangulo");
+    const inputHipotenusa = document.getElementById("inputHipotenusaTriangulo");
+
+    const cateto1 = inputCateto1.value;
+    const hipotenusa = inputHipotenusa.value;
+
+    alert(alturaTrianguloIsosceles(cateto1,hipotenusa));
+}
+
+function alturaTrianguloIsosceles(cateto1,hipotenusa){
+    hipotenusa  = hipotenusa * hipotenusa;
+    cateto1 = cateto1 * cateto1;
+    altura = hipotenusa - cateto1;
+    altura = Math.sqrt(altura);
+    return altura;
+};

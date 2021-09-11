@@ -28,7 +28,7 @@
     <section>
         <h2>Calcula el area y perimetro de un Triangulo</h2>
         <form>
-            <label for="inputTriangulo">
+            <label for="inputLado1Triangulo">
                 Escribe cuanto miden los lados de tu triangulo
             </label>
             <input id="inputLado1Triangulo" placeholder="primerLadoTriangulo" type="number"  />
@@ -49,6 +49,18 @@
             <input id="inputCirculo" type="number"  />
             <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perimetro</button>
             <button type="button" onclick="calcularAreaCirculo()">Calcular el area</button>
+        </form>
+    </section>
+    <hr/>
+    <section>
+        <h2>Calcula la altura de un triangulo isosceles</h2>
+        <form>
+            <label for="inputIsosceles">
+                Escribe cuanto mide los catetos e hipotenusa de tu triangulo
+            </label>
+            <input id="inputCateto1Triangulo" placeholder="Cateto 1" type="number"  />
+            <input id="inputHipotenusaTriangulo" placeholder="Hipotenusa" type="number"  />
+            <button type="button" onclick="calcularAlturaIsosceles()">Calcular Altura isosceles</button>        
         </form>
     </section>
     
