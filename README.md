@@ -10,3 +10,13 @@ Curso practico de javascript
 - Tercer paso: crear funciones.
 
 - Cuarto paso: integrar JavaScript con html.
+
+##Taller numero 2: Precios y descuentos
+
+- Primer paso: definir las formulas.
+
+- Segundo paso: implementar la formulas en JavaScript
+
+- Tercer paso: crear funciones.
+
+- Cuarto paso: integrar JavaScript con html.
