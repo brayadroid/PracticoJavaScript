@@ -4,6 +4,15 @@ const lista1 = [
     500,
     400000000
 ];
+//Funcion comparar para ordenar la lista.
+function comparar(a,b){
+    console.log("A: "+a+" B:"+b);
+    const resultado = a-b;
+    console.log("Resultado: "+resultado)
+    return resultado;
+}
+//Ordenar lista
+listaOrdenada = lista1.sort((a,b) => a-b );
 
 //Debemos encontrar la mitad de la lista.
 const mitadLista1 = parseInt(lista1.length / 2);
